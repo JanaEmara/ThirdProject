@@ -1,0 +1,87 @@
+body{
+    background-color: #24353F;
+}
+.signup,.signin{
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1{
+    color:#17A2B8
+}
+.form-control:focus {
+    background-color: #24353F;
+
+}
+.form-control {
+    color: white;
+    border: 1px solid #ced4da;
+}
+.form-control::placeholder {
+    color: #ffffff !important;
+    opacity: 0.7;
+}
+
+.form-control#EmailInput::placeholder {
+    color: #ffffff !important;
+}
+
+.form-control#PassInput::placeholder {
+    color: #17A2B8 !important;
+}
+
+.btn{
+    background-color: #24353F;
+    border-color:#17A2B8 ;
+    color: #17A2B8;
+}
+.btn:hover {
+    color: #fff;
+    background-color:#17A2B8;
+}
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: text-decoration 0.3s ease;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#logout-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-color: #FFC107;
+    color: #ced4da;
+}
+
+#logout-btn:hover {
+    background-color: #FFC107;
+    color: #ced4da;
+}
+
+.styling {
+    color: #00a5c8; 
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #fff;
+}
+

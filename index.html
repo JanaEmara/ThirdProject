@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <!-- Login Section -->
+        <div class="container my-5" id="login-section">
+            <div class="signup mx-auto w-75 p-5">
+                <div>
+                    <h1 class="text-center">Smart Login System</h1>
+                    <div class="mb-3 mt-4">
+                        <input type="email" class="form-control" id="login-email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="login-password" placeholder="Enter your password">
+                    </div>
+                </div>
+                <div id="login-error-message" class="text-danger mt-3 mb-4 text-center"></div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" id="login-btn" type="button">Login</button>
+                </div>
+    
+                <p class="text-center mt-3 text-white">Don’t have an account? <a href="#" id="show-signup">Sign Up</a></p>
+            </div>
+        </div>
+    
+        <!-- Signup Section -->
+        <div class="container my-5 d-none" id="signup-section">
+            <div class="signin mx-auto w-75 p-5">
+                <h1 class="text-center">Smart Login System</h1>
+                <div class="mb-3 mt-4">
+                    <input type="text" class="form-control" id="signup-name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="signup-email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="signup-password" placeholder="Enter your password">
+                </div>
+                <div id="signup-error-message" class="text-danger mt-3 mb-4 text-center"></div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" id="signup-btn" type="button">Sign Up</button>
+                </div>
+                <p class="text-center mt-3 text-white">Already have an account? <a href="#" id="show-login">Login</a></p>
+            </div>
+        </div>
+    
+        <!-- Home Section -->
+        <section class="d-none" id="home-section">
+            <nav class="navbar navbar-expand-lg p-3">
+                <div class="container">
+                    <a class="navbar-brand text-decoration-none" href="#">SMART LOGIN</a>
+                    <button class="btn btn-danger" id="logout-btn">Logout</button>
+                </div>
+            </nav>
+            <div class="container-fluid d-flex align-items-center justify-content-center vh-100">
+                <div class="styling text-center m-auto w-75 p-5">
+                    <h1 id="username-display"></h1>
+                </div>
+            </div>
+        </section>
+        
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
